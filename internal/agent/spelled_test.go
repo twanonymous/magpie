@@ -14,7 +14,7 @@ import (
 func TestOwnProviderNamedAsMagpies(t *testing.T) {
 	ids := []string{"agy", "opencode", "openchamber", "mimocode", "deveco", "pi", "aside", "omo", "prime-agent", "goose", "zed", "vscode",
 		"crush", "dsh", "commandcode", "fx", "omp", "hermes", "morph", "kimi", "empryo", "minimax-code", "droid",
-		"qoder", "qoder-cn", "grok", "atomcode", "cline", "snow"}
+		"qoder", "qoder-cn", "grok", "atomcode", "cline", "snow", "openbot"}
 	for _, id := range ids {
 		t.Run(id, func(t *testing.T) {
 			if id == "aside" {

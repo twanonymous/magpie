@@ -160,6 +160,7 @@ func builtins(home, cfg string) []*Agent {
 		cindy(),
 		aionui(),
 		lody(home),
+		openBot(home),
 	}, append(ompProfiles(home), wslAgents()...)...)
 }
 
